@@ -8,3 +8,11 @@ export const fetchCompanyInfoFromData = () => {
         }, 1000);
     });
 };
+
+export const fetchEmployeesFromData = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(data.employees);
+        }, 1000);
+    });
+};
