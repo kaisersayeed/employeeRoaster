@@ -8,14 +8,20 @@ class EmployeeModal extends React.Component {
     return employee ? (
       <div className="static-modal">
         <Modal show={show}>
-          <Modal.Header>
-            <Modal.Title>
-              {employee.firstName}
-              <Button onClick={onClose}>X</Button>
-            </Modal.Title>
-          </Modal.Header>
-
-          <Modal.Body>One fine body...</Modal.Body>
+        <Button className="modal-close" onClick={onClose}>X</Button>
+          <div className="modal-info">
+            <div className="modal-content-left">
+             <img src={employee.avatar}/>
+             <p>{employee.jobTitle}</p>
+             <p>{employee.age}</p>
+             <p>{employee.dateJoined}</p>
+            </div>
+            <div className="modal-content-right">
+              <p>{employee.firstName} {employee.lastName}</p>
+              <hr/>
+              <p>{employee.bio}</p>
+            </div>
+          </div>
         </Modal>
       </div>
     ) : null;
