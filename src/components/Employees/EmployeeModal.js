@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Button, Modal } from "react-bootstrap";
+import {formatDate} from "../../utils/helper";
 
 class EmployeeModal extends React.Component {
   render() {
@@ -14,7 +15,7 @@ class EmployeeModal extends React.Component {
              <img src={employee.avatar}/>
              <p>{employee.jobTitle}</p>
              <p>{employee.age}</p>
-             <p>{employee.dateJoined}</p>
+             <p>{formatDate(employee.dateJoined)}</p>
             </div>
             <div className="modal-content-right">
               <p>{employee.firstName} {employee.lastName}</p>
