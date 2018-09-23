@@ -13,9 +13,9 @@ class EmployeeModal extends React.Component {
           <div className="modal-info">
             <div className="modal-content-left">
              <img src={employee.avatar}/>
-             <p>{employee.jobTitle}</p>
-             <p>{employee.age}</p>
-             <p>{formatDate(employee.dateJoined)}</p>
+             <p>Title: {employee.jobTitle}</p>
+             <p>Age: {employee.age}</p>
+             <p>Date Joined: {formatDate(employee.dateJoined)}</p>
             </div>
             <div className="modal-content-right">
               <p>{employee.firstName} {employee.lastName}</p>
