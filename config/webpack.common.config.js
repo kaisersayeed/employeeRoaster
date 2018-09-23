@@ -50,7 +50,6 @@ const config = {
         new CleanWebPackPlugin(['public'], { root: commonPaths.root }),
         new HtmlWebPackPlugin({
             template: commonPaths.template,
-            favicon: commonPaths.favicon,
             inject: true
         })
     ]

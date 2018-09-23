@@ -1,0 +1,129 @@
+{
+  "companyInfo": {
+    "companyName": "Owen, Moore and Nader",
+    "companyMotto": "transparent expedite interfaces",
+    "companyEst": "2003-06-13T21:21:42.292Z"
+  },
+  "employees": [
+    {
+      "id": "51f64c8f-0673-4056-a1d1-76b12b35a1d0",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bermonpainter/128.jpg",
+      "firstName": "Alexis",
+      "lastName": "Dooley",
+      "jobTitle": "Product Communications Architect",
+      "age": 44,
+      "bio": "Sunt et ut rem illo totam accusantium non. Qui ut asperiores sed consequatur sequi quibusdam. Incidunt id omnis neque eaque cupiditate aliquid dolores.",
+      "dateJoined": "2016-08-08T17:31:18.884Z"
+    },
+    {
+      "id": "0cdd3ed8-0c18-4e21-9f3f-bf294f7b0b05",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/lepetitogre/128.jpg",
+      "firstName": "James",
+      "lastName": "Mann",
+      "jobTitle": "Human Paradigm Director",
+      "age": 24,
+      "bio": "Ducimus odio eos repudiandae qui vero. Voluptatibus officia saepe fuga debitis alias dicta in. Dolore voluptatem placeat cum fugit.",
+      "dateJoined": "2014-01-14T09:47:34.123Z"
+    },
+    {
+      "id": "e031a842-cb4f-4ba3-90bc-b36517bfcd32",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/felipeapiress/128.jpg",
+      "firstName": "Sebastian",
+      "lastName": "Rees",
+      "jobTitle": "Regional Program Officer",
+      "age": 36,
+      "bio": "Quia veritatis eius laboriosam sunt aspernatur et quis rerum. Voluptatem cum distinctio amet vel. Nihil illo ipsum sunt facilis adipisci. Ut officia harum distinctio voluptas saepe. Voluptatem nesciunt cum est delectus aut et omnis.",
+      "dateJoined": "2016-08-23T12:39:50.571Z"
+    },
+    {
+      "id": "25f5dc11-17c3-495d-aed6-850df93f9ce7",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/aviddayentonbay/128.jpg",
+      "firstName": "Hugo",
+      "lastName": "Walker",
+      "jobTitle": "Forward Tactics Supervisor",
+      "age": 35,
+      "bio": "Voluptatem aut mollitia omnis eos. Eum ipsa consequuntur delectus. Molestiae at quam sequi numquam enim delectus et facilis. Officia aperiam sit. Sed aliquam qui velit.",
+      "dateJoined": "2012-09-30T10:45:29.067Z"
+    },
+    {
+      "id": "bb800311-3a78-4b8f-8d8b-e37428757b7c",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/michalhron/128.jpg",
+      "firstName": "Joshua",
+      "lastName": "Cole",
+      "jobTitle": "Dynamic Usability Director",
+      "age": 51,
+      "bio": "Et neque sit qui nihil. Tenetur illum ipsum perspiciatis sit dolores qui asperiores enim quia. Labore enim quibusdam et velit ex nostrum quas et cum. Dolores aut et. Omnis voluptatem sequi suscipit omnis corporis maxime optio aut. Molestias omnis ipsam et dolores autem nihil non.",
+      "dateJoined": "2017-12-07T04:21:59.606Z"
+    },
+    {
+      "id": "457e4afd-f894-43f1-b454-b21efeda72b1",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/felipeapiress/128.jpg",
+      "firstName": "Amy",
+      "lastName": "Bruen",
+      "jobTitle": "Dynamic Implementation Analyst",
+      "age": 33,
+      "bio": "Nobis ipsam et ducimus voluptatum. Corrupti qui eligendi. Corrupti vel ut libero corrupti sequi quae.",
+      "dateJoined": "2015-12-21T04:12:34.231Z"
+    },
+    {
+      "id": "2b9ad067-7805-4caa-9e95-4edad1f97036",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/iqbalperkasa/128.jpg",
+      "firstName": "Poppy",
+      "lastName": "Rowe",
+      "jobTitle": "Legacy Operations Director",
+      "age": 47,
+      "bio": "Cupiditate sunt commodi fuga aspernatur voluptate maiores. Consequuntur commodi adipisci quis alias. Sit officia in voluptatem est officiis rerum perspiciatis. Iste ut rerum dicta suscipit. Quisquam exercitationem ullam quidem vitae eos omnis nesciunt. Quis quas autem molestiae.",
+      "dateJoined": "2016-07-18T13:51:07.278Z"
+    },
+    {
+      "id": "594a8c5d-08ef-40af-8b66-a9f33d7b3f27",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/ripplemdk/128.jpg",
+      "firstName": "Hamish",
+      "lastName": "Johns",
+      "jobTitle": "Future Security Liaison",
+      "age": 64,
+      "bio": "Qui qui dolor dolores optio porro non. Perferendis voluptatem tempora quia ut cum ullam voluptates. Nisi quam non occaecati.",
+      "dateJoined": "2015-07-25T07:26:35.313Z"
+    },
+    {
+      "id": "758b7a5e-b1fd-4a34-9f2d-948e9e103302",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/lmjabreu/128.jpg",
+      "firstName": "Oscar",
+      "lastName": "Rees",
+      "jobTitle": "International Functionality Consultant",
+      "age": 34,
+      "bio": "Ipsam et eum. Voluptatum qui deleniti et quis autem atque modi. Natus incidunt error.",
+      "dateJoined": "2016-03-19T00:20:08.332Z"
+    },
+    {
+      "id": "e79b9264-22c3-44a6-a26d-da3af3fc982f",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/we_social/128.jpg",
+      "firstName": "Jasper",
+      "lastName": "Monahan",
+      "jobTitle": "Internal Metrics Executive",
+      "age": 55,
+      "bio": "Fugit hic officia enim tenetur magni sunt deserunt. Sunt modi molestiae culpa autem deserunt id sint. Omnis illo aliquid repudiandae soluta nostrum quo.",
+      "dateJoined": "2012-01-21T17:43:44.377Z"
+    },
+    {
+      "id": "8a418c01-099a-4633-a2a2-e75c88802a5a",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/thedjpetersen/128.jpg",
+      "firstName": "Christopher",
+      "lastName": "Brown",
+      "jobTitle": "Central Identity Administrator",
+      "age": 26,
+      "bio": "Consequatur commodi tenetur perferendis non et magni distinctio et voluptate. Non nostrum corporis. Similique aperiam nihil nulla quas quod est suscipit omnis.",
+      "dateJoined": "2018-03-12T14:25:47.725Z"
+    },
+    {
+      "id": "d934d8e1-cc2e-4be5-987d-4eec2c83e315",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/ma_tiax/128.jpg",
+      "firstName": "Stephanie",
+      "lastName": "D'amore",
+      "jobTitle": "Internal Functionality Producer",
+      "age": 67,
+      "bio": "Eos corporis aut assumenda ea quisquam provident et autem adipisci. Voluptatibus rerum doloribus voluptatem libero magni. Veniam ut dolorum ut explicabo illum accusamus voluptatibus. Doloribus unde assumenda id. Ea rerum consectetur laboriosam officia eligendi. Ducimus nesciunt quod ad et quia et commodi laborum.",
+      "dateJoined": "2016-11-09T22:08:13.630Z"
+    }
+  ]
+}
