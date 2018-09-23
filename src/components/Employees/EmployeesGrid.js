@@ -34,16 +34,14 @@ class EmployeesGrid extends React.PureComponent {
           <div
       role="button"
       onClick={() => this.handleOnClick(employee.id)}
-      className="col-md-4 employee"
+      className="col-md-4 col-lg-4 employee"
       style={selectedStyle}
       key={employee.id}
       >
-      <div className="row">
-          <div className="col-md-6">
-          <img src={employee.avatar} />
-      </div>
-      <div className="col-md-6">
-          {employee.firstName} {employee.lastName}
+      <div className="card">
+      <img src={employee.avatar} />
+      <div className="bio">
+          <p>{employee.firstName} {employee.lastName}</p>
       <p>{employee.bio.substring(0, 15)}</p>
       </div>
       </div>
@@ -53,11 +51,11 @@ class EmployeesGrid extends React.PureComponent {
   };
   render() {
     return (
-        <div className="employees">
+        <div className="content">
         <div className="row">
-        <p className="col-md-12"> Our Employees </p>
+        <p className="col-md-12 border-bottom-grey"> Our Employees </p>
     </div>
-    <div className="row">{this.renderEmployees()}</div>
+    <div className="row employees">{this.renderEmployees()}</div>
     <EmployeeModal show={this.state.show} onClose={this.onClose} />
   </div>
   );

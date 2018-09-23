@@ -2,3 +2,16 @@ body {
     background-color: #e9ecef;
     font-family: $font-family;
 }
+
+.content {
+    padding: 35px 20px 20px 20px;
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid darkgrey;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
