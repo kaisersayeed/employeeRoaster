@@ -1,1 +1,2 @@
-export const getSelectedEmployeeId = selectedEmployee => selectedEmployee.id;
+export const getSelectedEmployeeId = selectedEmployee =>
+    selectedEmployee ? selectedEmployee.id : -1;

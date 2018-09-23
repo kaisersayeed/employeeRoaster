@@ -18,7 +18,7 @@ const EmployeeReducer = (state = initialState, action) => {
       const selected = list.find(employee => employee.id === action.id);
       return {
         ...state,
-        selectedEmployee: selected
+        selectedEmployee: selected ? selected : null
       };
     default:
       return state;

@@ -5,12 +5,12 @@ import { Button, Modal } from "react-bootstrap";
 class EmployeeModal extends React.Component {
   render() {
     const { employee, show, onClose } = this.props;
-    return (
+    return employee ? (
       <div className="static-modal">
         <Modal show={show}>
           <Modal.Header>
             <Modal.Title>
-              {employee.firstName} {employee.lastName}
+              {employee.firstName}
               <Button onClick={onClose}>X</Button>
             </Modal.Title>
           </Modal.Header>
@@ -18,7 +18,7 @@ class EmployeeModal extends React.Component {
           <Modal.Body>One fine body...</Modal.Body>
         </Modal>
       </div>
-    );
+    ) : null;
   }
 }
 

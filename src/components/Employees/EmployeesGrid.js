@@ -19,6 +19,7 @@ class EmployeesGrid extends React.PureComponent {
     this.setState({
       show: false
     });
+    this.props.handleOnClick(-1);
   };
   renderEmployees = () => {
     const { employees, selectedEmployeeId } = this.props;
