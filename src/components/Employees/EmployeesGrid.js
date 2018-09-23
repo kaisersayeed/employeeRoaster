@@ -24,21 +24,14 @@ class EmployeesGrid extends React.PureComponent {
   renderEmployees = () => {
     const { employees, selectedEmployeeId } = this.props;
     return employees.map(employee => {
-      const selectedStyle =
-          selectedEmployeeId === employee.id
-              ? {
-            backgroundColor: "red"
-          }
-              : {};
+      const selectedStyle = selectedEmployeeId === employee.id ? 'selected' : {};
       return (
-          <div
-      role="button"
+          <div role="button"
       onClick={() => this.handleOnClick(employee.id)}
-      className="col-md-4 col-lg-4 employee"
-      style={selectedStyle}
+      className="col-md-4 employee"
       key={employee.id}
       >
-      <div className="card">
+            <div className={`card ${selectedStyle}`}>
       <img src={employee.avatar} />
       <div className="bio">
           <p>{employee.firstName} {employee.lastName}</p>
@@ -55,7 +48,9 @@ class EmployeesGrid extends React.PureComponent {
         <div className="row">
         <p className="col-md-12 border-bottom-grey"> Our Employees </p>
     </div>
-    <div className="row employees">{this.renderEmployees()}</div>
+       <div className="row employees">
+         {this.renderEmployees()}
+       </div>
     <EmployeeModal show={this.state.show} onClose={this.onClose} />
   </div>
   );
