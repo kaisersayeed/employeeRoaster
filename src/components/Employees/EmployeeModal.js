@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Button, Modal } from "react-bootstrap";
-import {formatDate} from "../../utils/helper";
+import { formatDate } from "../../utils/helper";
 
 class EmployeeModal extends React.Component {
   render() {
@@ -9,17 +9,17 @@ class EmployeeModal extends React.Component {
     return employee ? (
       <div className="static-modal">
         <Modal show={show}>
-        <Button className="modal-close" onClick={onClose}>X</Button>
+          <Button className="modal-close" onClick={onClose}>X</Button>
           <div className="modal-info">
             <div className="modal-content-left">
-             <img src={employee.avatar}/>
-             <p>Title: {employee.jobTitle}</p>
-             <p>Age: {employee.age}</p>
-             <p>Date Joined: {formatDate(employee.dateJoined)}</p>
+              <img src={employee.avatar} />
+              <p>{employee.jobTitle}</p>
+              <p>{`${employee.age} yrs`}</p>
+              <p>Joined in {formatDate(employee.dateJoined)}</p>
             </div>
             <div className="modal-content-right">
               <p>{employee.firstName} {employee.lastName}</p>
-              <hr/>
+              <hr />
               <p>{employee.bio}</p>
             </div>
           </div>
