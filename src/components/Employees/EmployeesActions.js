@@ -6,7 +6,6 @@ export const fetchEmployees = () => {
   return dispatch => {
     employeesPromise
       .then(data => {
-        console.log("called ", data);
         dispatch({
           type: actionTypes.FETCH_EMPLOYEES_SUCCESSFUL,
           payload: data

@@ -26,34 +26,34 @@ class EmployeesGrid extends React.PureComponent {
     return employees.map(employee => {
       const selectedStyle = selectedEmployeeId === employee.id ? 'selected' : {};
       return (
-          <div role="button"
-      onClick={() => this.handleOnClick(employee.id)}
-      className="col-md-4 employee"
-      key={employee.id}
-      >
-            <div className={`card ${selectedStyle}`}>
-      <img src={employee.avatar} />
-      <div className="bio">
-          <p>{employee.firstName} {employee.lastName}</p>
-      <p>{`${employee.bio.substring(0, 100)} ...`}</p>
-      </div>
-      </div>
-      </div>
+        <div role="button"
+          onClick={() => this.handleOnClick(employee.id)}
+          className="col-md-4 employee"
+          key={employee.id}
+        >
+          <div className={`card ${selectedStyle}`}>
+            <img src={employee.avatar} />
+            <div className="bio">
+              <p>{employee.firstName} {employee.lastName}</p>
+              <p>{`${employee.bio.substring(0, 100)} ...`}</p>
+            </div>
+          </div>
+        </div>
       );
     });
   };
   render() {
     return (
-        <div className="content">
+      <div className="content">
         <div className="row">
-        <p className="col-md-12 border-bottom-grey"> Our Employees </p>
-    </div>
-       <div className="row employees">
-         {this.renderEmployees()}
-       </div>
-    <EmployeeModal show={this.state.show} onClose={this.onClose} />
-  </div>
-  );
+          <p className="col-md-12 border-bottom-grey"> Our Employees </p>
+        </div>
+        <div className="row employees">
+          {this.renderEmployees()}
+        </div>
+        <EmployeeModal show={this.state.show} onClose={this.onClose} />
+      </div>
+    );
   }
 }
 

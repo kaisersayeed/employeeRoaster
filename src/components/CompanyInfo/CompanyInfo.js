@@ -1,5 +1,5 @@
 import React from "react";
-import {formatDate} from "../../utils/helper";
+import { formatDate } from "../../utils/helper";
 
 const CompanyInfo = props => {
   return props.companyInfo.companyEst ? (
@@ -12,6 +12,6 @@ const CompanyInfo = props => {
         <div className="col-md-2">{`Since ${formatDate(props.companyInfo.companyEst)}`}</div>
       </div>
     </div>
-  ): null;
+  ) : null;
 };
 export default CompanyInfo;
