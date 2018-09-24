@@ -1,7 +1,6 @@
 import React from "react";
 import EmployeeModal from "./EmployeeModal";
-import Avatar from "../shared/Avatar";
-import EmployeeSummary from "./EmployeeSummary";
+import EmployeeCard from "./EmployeeCard";
 
 class EmployeesGrid extends React.PureComponent {
   constructor(props) {
@@ -33,10 +32,7 @@ class EmployeesGrid extends React.PureComponent {
           className="col-md-4 employee"
           key={employee.id}
         >
-          <div className={`card ${selectedStyle}`}>
-            <Avatar imgSrc={employee.avatar} />
-            <EmployeeSummary employee={employee} />
-          </div>
+          <EmployeeCard employee={employee} selectedStyle={selectedStyle}/>
         </div>
       );
     });

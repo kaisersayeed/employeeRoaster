@@ -1,6 +1,6 @@
 import React from "react";
 
-const EmployeeCard = props => {
+const EmployeeSummary = props => {
   const { firstName, lastName, bio } = props.employee;
   return (
     <div className="bio">
@@ -9,4 +9,4 @@ const EmployeeCard = props => {
     </div>
   )
 };
-export default EmployeeCard;
+export default EmployeeSummary;
