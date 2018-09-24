@@ -1,5 +1,6 @@
 import React from "react";
 import EmployeeModal from "./EmployeeModal";
+import Avatar from "../shared/Avatar";
 
 class EmployeesGrid extends React.PureComponent {
   constructor(props) {
@@ -32,7 +33,7 @@ class EmployeesGrid extends React.PureComponent {
           key={employee.id}
         >
           <div className={`card ${selectedStyle}`}>
-            <img src={employee.avatar} />
+            <Avatar imgSrc={employee.avatar} />
             <div className="bio">
               <p>{employee.firstName} {employee.lastName}</p>
               <p>{`${employee.bio.substring(0, 100)} ...`}</p>

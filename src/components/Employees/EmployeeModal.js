@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { Button, Modal } from "react-bootstrap";
 import { formatDate } from "../../utils/helper";
+import Avatar from '../shared/Avatar';
 
 class EmployeeModal extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class EmployeeModal extends React.Component {
           <Button className="modal-close" onClick={onClose}>X</Button>
           <div className="modal-info">
             <div className="modal-content-left">
-              <img src={employee.avatar} />
+              <Avatar imgSrc={employee.avatar} />
               <p>{employee.jobTitle}</p>
               <p>{`${employee.age} yrs`}</p>
               <p>Joined in {formatDate(employee.dateJoined)}</p>
