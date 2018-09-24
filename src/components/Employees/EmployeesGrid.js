@@ -35,7 +35,7 @@ class EmployeesGrid extends React.PureComponent {
       <img src={employee.avatar} />
       <div className="bio">
           <p>{employee.firstName} {employee.lastName}</p>
-      <p>{employee.bio.substring(0, 15)}</p>
+      <p>{`${employee.bio.substring(0, 100)} ...`}</p>
       </div>
       </div>
       </div>
